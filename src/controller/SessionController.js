@@ -7,10 +7,10 @@
  * checkPass : verifica se a senha passada e igual a que tem no banco
  */
 
-import db from "../database/connections";
+import db from "../database/connections.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import auth from "../config/auth";
+import auth from "../config/auth.js";
 
 class SessionController {
   async create(req, res) {

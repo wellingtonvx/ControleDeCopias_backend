@@ -1,8 +1,8 @@
 import express from "express";
 
-import UserController from "./controller/UserController";
-import SessionController from "./controller/SessionController";
-import RegiterController from "./controller/RegiterController";
+import UserController from "./controller/UserController.js";
+import SessionController from "./controller/SessionController.js";
+import RegiterController from "./controller/RegiterController.js";
 
 // import authMiddeware from "./middlewares/auth";
 

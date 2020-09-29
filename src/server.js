@@ -1,9 +1,9 @@
 import express from "express";
-import route from "./routes";
+import Routes from "./routes.js";
 
 const app = express();
 
 app.use(express.json());
-app.use(route);
+app.use(Routes);
 
 app.listen(process.env.PORT || 3333);

@@ -5,7 +5,7 @@
  * createUser : cria um novo usuário dentro do banco
  */
 
-import db from "../database/connections";
+import db from "../database/connections.js";
 
 class RegisterController {
   async index(req, res) {
