@@ -20,7 +20,7 @@ import path from "path";
 const db = knex({
   client: "sqlite3",
   connection: {
-    filename: path.resolve(__dirname, "database.sqlite"),
+    filename: "src/database/database.sqlite",
   },
   useNullAsDefault: true,
   define: {
