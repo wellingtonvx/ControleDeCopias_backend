@@ -4,7 +4,7 @@ import UserController from "./controller/UserController";
 import SessionController from "./controller/SessionController";
 import RegiterController from "./controller/RegiterController";
 
-import authMiddeware from "./middlewares/auth";
+// import authMiddeware from "./middlewares/auth";
 
 const route = express.Router();
 
