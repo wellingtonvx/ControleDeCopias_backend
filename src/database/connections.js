@@ -17,10 +17,13 @@ import path from "path";
 //   },
 // });
 
+//"src/database/database.sqlite"
+
 const db = knex({
   client: "sqlite3",
   connection: {
-    filename: "src/database/database.sqlite",
+    filename:
+      "https://drive.google.com/file/d/1iF2Q2G-RXr1HCdFVwA2oPS0dxy7O8xj9/view?usp=sharing",
   },
   useNullAsDefault: true,
   define: {
