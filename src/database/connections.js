@@ -22,8 +22,8 @@ import path from "path";
 const db = knex({
   client: "sqlite3",
   connection: {
-    filename:
-      "https://drive.google.com/file/d/1iF2Q2G-RXr1HCdFVwA2oPS0dxy7O8xj9/view?usp=sharing",
+    filename: "src/database/database.sqlite",
+    // filename: path.resolve(__dirname, "src", "database", database.sqlite),
   },
   useNullAsDefault: true,
   define: {
